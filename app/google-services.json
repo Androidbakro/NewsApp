@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1058120455112",
+    "project_id": "rcc026-513f3",
+    "storage_bucket": "rcc026-513f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058120455112:android:7c737659abda50244d26fd",
+        "android_client_info": {
+          "package_name": "com.candroid.candroidrcc026"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058120455112-2et31b4el43lf9sekb0srf6bjhi4sk69.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEMjLKVdOTDIkpTISdLO2aQxuZPsfE8rM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058120455112-2et31b4el43lf9sekb0srf6bjhi4sk69.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

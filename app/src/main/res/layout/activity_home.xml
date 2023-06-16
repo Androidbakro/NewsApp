@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".HomeActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/science_btn"
+        style="@style/TVStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_shape"
+        android:text="Science News" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/sports_btn"
+        style="@style/TVStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/btn_shape"
+        android:text="Sports News" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/tech_btn"
+        style="@style/TVStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_shape"
+        android:text="Technology News" />
+
+</LinearLayout>

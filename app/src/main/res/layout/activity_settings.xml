@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+    <RadioGroup
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <RadioButton
+            android:id="@+id/us_rb"
+            style="@style/TVStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="United States"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/jp_rb"
+            style="@style/TVStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Japan"
+            android:textColor="@color/black" />
+
+    </RadioGroup>
+
+</FrameLayout>
